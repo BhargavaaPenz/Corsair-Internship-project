@@ -1,0 +1,13 @@
+prefix=/Users/bhargavaa/Documents/Internship/Corsair project/venv
+exec_prefix=/Users/bhargavaa/Documents/Internship/Corsair project/venv
+libdir=/Users/bhargavaa/Documents/Internship/Corsair project/venv/lib
+sharedlibdir=/Users/bhargavaa/Documents/Internship/Corsair project/venv/lib
+includedir=/Users/bhargavaa/Documents/Internship/Corsair project/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
